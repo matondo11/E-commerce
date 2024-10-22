@@ -1,0 +1,237 @@
+   /* Configurações gerais */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+    font-family: 'Lucida Sans','Lucida Grande',sans-serif;
+}               
+
+    /* Estilização da pagina sobre a mirror fashion*/
+          
+#Sobre{
+    background-image:url(../img/sobre-background.jpg);
+   padding: 10px;
+}                
+
+#familia-pelho{
+    float:right;
+    width: 300px;
+    margin-top:0 0 10px 10px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;    
+    background-color: #ccc; 
+    border: 1px solid #ccc;  
+}
+#centro-distribuicao{
+    width: 550px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;    
+    background-color: #ccc; 
+    border: 1px solid #ccc;  
+}
+#diferenciais,
+#história{
+    border-bottom:2px solid #333333;
+}
+
+ /* Estilização da pagina principal da  mirror fashion*/
+
+ /* Cabeçalho*/
+ .sacola{
+    background-image:url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position:right top;
+    
+    padding:10px 30px 10px 10px;
+ }
+ .sacola,
+.menu{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right:20px ;
+}
+.menu a:hover{
+    color: #007dc6;
+}
+.menu a:active{
+    color:#867dc6;
+}
+
+/* destques*/
+.busca,
+.departamentos{
+    width:200px;
+    text-transform: uppercase;
+    position: relative;
+    font-size:14px;
+}
+.busca{
+    float:left;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.departamentos{
+    float:left;
+    clear: left;
+    font-weight: bold;
+    position:relative;
+    top: -20px;
+    left: auto;
+}
+.departamentos ul{
+    list-style-type:none;
+    margin-left:-40px;
+}
+.departamentos a{
+    text-decoration: none;
+    color: #333333;
+}
+.busca,
+.departamentos,
+.busca h2,
+.departamentos h2{
+    margin: 10px;
+}
+.busca h2{
+    color: #333333;
+    font-size:14px;
+}
+.departamentos li{
+    padding:5px;
+    border-bottom:1px solid #ccc;
+    background-color: white;
+}
+.departamentos h2{
+    background-color: #ccc;
+    font-size:20px;
+    position: relative;
+    top: auto;
+    left: -10px;
+
+}
+.busca input[type="Search"]{
+    width: 140px;
+    margin-left:10px;
+    border-radius:8px;
+}
+button{
+    border-style: none;
+    background-color: white;
+}
+.painel{
+    width: 464px;
+    margin:10px 0; 
+    border-radius:4px;
+    box-shadow:inset 1px 1px 4px #999;
+}
+.painel li{
+    display: inline-block;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+    vertical-align:top;
+    text-align: center;
+}
+.painel h2{
+    margin:10px;
+    padding-top:10px;
+    text-shadow:3px 3px 2px rgb(red, green, blue, 0.8);
+}
+.painel ol {
+    padding:0 10px 0 10px;
+}
+.painel a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+}
+.novidades{
+    background-color: #f5dcdc;  
+    float: left;
+    background: linear-gradient(#f5dcdc, #bebef4);
+}
+.maisvendidos{
+    background-color: #dcdcf5;
+    float: right;
+    background: linear-gradient(#dcdcf5, #f4bebe);
+}
+footer{
+    background-image:url(../img/fundo-rodape.png);
+    clear: both;
+    padding:20px;
+    position: relative;
+}
+.midia a{
+    width:32px;
+    height:32px;
+    text-indent:-9999px;
+    display: block;    
+}
+.midia a[href*="facebook.com"]{
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:20px;
+    right: 120px;
+}
+.midia a[href*="twitter.com"]{
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:20px;
+    right: 60px;
+}
+.midia a[href*="plus.google.com"]{
+    background-image: url(../img/googleplus.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:20px;
+    right: 10px;
+}
+.midia li {
+    float: left;
+    margin-left:25px;
+}
+.midia{
+    position: absolute;
+    top:-10px;
+    right: 0;
+    list-style-type:none;
+}
+.departamentos li ul{
+    display: none;
+}
+.departamentos li:hover ul{
+    display: block;
+}
+.departamentos li li a::before{
+    content: '-';
+}
+.departamentos ul ul li{
+    background-color: #dcdcdc;
+}
+.painel li:hover{
+    background-color: rgb(255, 255, 255,0.8);
+    box-shadow:0 0 5px #333;
+    transition:0.7s;
+}
+.painel li:nth-child(2n):hover{
+    transform: scale(1.2) rotate(5deg);
+}
+.painel li:nth-child(2n+1):hover{
+    transform: scale(1.2) rotate(-5deg);
+}
+
+@media (max-width:320px){
+   .container{
+     width:75%;
+     margin: auto;
+   }
+   
+  
+    
+}

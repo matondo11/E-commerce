@@ -1,0 +1,9 @@
+.cores {
+    padding: 20px;
+}
+.menu,
+.sacola{
+    text-align: right;
+    position: relative;
+    top: -100px;
+}
